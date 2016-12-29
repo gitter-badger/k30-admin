@@ -1,5 +1,7 @@
 # K30Admin
 
+[![Join the chat at https://gitter.im/PerkdAS/k30-admin](https://badges.gitter.im/PerkdAS/k30-admin.svg)](https://gitter.im/PerkdAS/k30-admin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Aot compatible version of https://github.com/akveo/ng2-admin.
 
 ## Why
