@@ -1,3 +1,13 @@
 <h1>
-  {{title}}
+  {{'title' | translate}}
 </h1>
+
+<select #langSelect (change)="translate.use(langSelect.value)">
+    <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+</select>
+
+<form #form="ngForm">
+  <ba-checkbox name="check" value="fab" label="fabi" ngModel></ba-checkbox>
+
+  <ba-multi-checkbox name="multi" label="label"></ba-multi-checkbox>
+</form>
